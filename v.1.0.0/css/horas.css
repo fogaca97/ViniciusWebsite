@@ -1,0 +1,40 @@
+.horas{
+    align-items: center;
+    margin: 50px 0;
+    width: 100%;
+}
+
+.horas__titulo{
+    font-size: 2.5em;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.horas__container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 50px;
+}
+
+.horas__lista{
+    display: block;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+.horas__lista-titulo{
+    border: solid 2px #000000;
+    border-radius: 100%;
+    background-color: #D1E0FF;
+    font-size: 1.5em;
+    height: 50px;
+    padding: 60px 40px;
+    text-align: center;
+    
+    width: 100px;
+}
+
+.horas__lista-subtitulo{
+    font-size: 1.3em;
+}

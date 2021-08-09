@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Vinicius Fogaça de Medeiros</title>
+    <link rel="stylesheet" href="/css/cssreset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/dropdown.css">
+    <link rel="stylesheet" href="/css/sobre.css">
+    <link rel="stylesheet" href="/css/carousel.css">
+    <link rel="stylesheet" href="/css/artigo.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/mediaquery.css">
+</head>
+<body>
+    <header>
+        <div class="container__header">
+            <div>
+                <a class="container__main" href="index.html">
+                    <h1 class="container__titulo">Vinícius</h1>
+                    <h2 class="container__subtitulo">Fogaça de Medeiros</h2>
+                </a>
+            </div>
+            <nav class="container__">
+                <ul class="container__nav">
+                    <li><a class="container__nav__link" href="index.html">Início</a></li>
+
+
+                <div class="dropdown">
+                    <button class="dropdown__button action">Sobre</button>
+                    <img class="seta__dropdown dropdown__button action" src="/img/icones/icone-seta.png">
+                    <ul class="dropdown__content">
+                        <li><a class="container__nav__drop dropdown" href="aviacao.html">Aviação</a></li>
+                        <li><a class="container__nav__drop dropdown" href="tecnologia.html">Tecnologia</a></li>
+                    </ul>
+                </div>
+
+
+
+                    <li><a class="container__nav__link" href="curriculos.html">Currículos</a></li>
+                    <li><a class="container__nav__link" href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="sobre">
+                <img class="sobre__imagem" src="/img/imagens/vinicius-fogaca.jpg" alt="Foto de Vinicius Fogaça pilotando um avião">
+                <article class="sobre__article">
+                    <h3 class="sobre__titulo" tabindex="0">Quem sou eu</h3>
+                    <p class="sobre__paragrafo">Piloto de avião e programador.<br>Tenho  23 anos e sou de São Paulo, Brasil.<br>Me conheça mais clicando <a href="#saibamais">aqui.</a></p>
+                </article>
+            </div>
+        </section>
+
+        <section>
+            <article class="carousel">
+                <button class="carousel__botao carousel__botao--anterior" id="data-anterior"  aria-label="Botão de voltar"></button>
+                <button class="carousel__botao carousel__botao--proximo" id="data-proximo"  aria-label="Botão de avançar"></button>
+                
+                <ul class="carousel__lista" data-lista-img id="img">
+                    <a href="aviacao.html" class="carousel__item" id="img1">
+                        <p class="carousel__itens__descricao" id="des1">Aviação</p>
+                        <li class="carousel__itens"><img src="/img/imagens/carousel-aviao (1).jpg" alt="Avião biplano ao por do sol" class="carousel__imagem imagem1" ></li>
+                    </a>
+                    <a href="tecnologia.html" class="carousel__item" id="img2">
+                        <p class="carousel__itens__descricao carousel__descricao--inativo" id="des2">Tecnologia</p>
+                        <li class="carousel__itens"><img src="/img/imagens/carousel-programacao.jpg" alt="Linhas de programação em HTML" class="carousel__imagem imagem2"></li>
+                    </a>
+                </ul>
+                <div class="carousel__indicadores" data-navegacao>
+                    <button class="carousel__indicador carousel__indicador--ativo" id="nav1" data-indicador='0' aria-label="Slide 1"></button>
+                    <button class="carousel__indicador" data-indicador='1' id="nav2" aria-label="Slide 2"></button>
+                </div>
+            </article>
+        </section>
+
+        <section>
+            <div class="sobremim" id="saibamais">
+                <img src="/img/svg/aeroporto.svg" class="sobremim__imagem-aeroporto" alt="Desenho de um aeroporto com nuvens se movimentando">
+                <img src="/img/svg/cessna.svg" class="sobremim__imagem-aviao" alt="Avião Cessna 172">
+                <article class="sobremim__article">
+                    <h3 class="sobremim__titulo" tabindex="0">Sobre mim</h3>
+                    <p class="sobremim__paragrafo">Meu nome é Vinicius Fogaça de Medeiros, nasci em São Paulo, Brasil no ano de 1997. Sou uma pessoa muito curiosa e entusiasmada. Gosto de saber como as coisas funcionam e com isso me dedico bastante aos estudos. Atualmente estou a procura de colocação profissional, criei esse website com intuito de aprofundar meus conhecimentos na linguagem de front-end e ao mesmo tempo fazer um auto conhecimento.</p>
+                </article>
+            </div>
+            <div class="sobreavi">
+                <article class="sobreavi__article">
+                    <h3 class="sobreavi__titulo" tabindex="0">Aviação</h3>
+                    <p class="sobreavi__paragrafo">Minha carreira na aviação começou em 2017 e devido a uma crise financeira tive de optar por escolher entre continuar a carreira na aviação ou continuar estudando Engenharia Civil na FEI. Por conta da aviação ser uma área bastante presente na minha familia e eu tinha um certo apego, decidi continuar nela. Então,  com a ajuda dos meus familiares, me dediquei a concluir todos os cursos teóricos e práticos. </p>
+                    <p>Você pode saber mais sobre essa área profissional clicando <a href="aviacao.html" class="sobreavi__link">aqui</a>!</p>
+                </article>
+                <div class="sobreavi__parallax"></div>
+            </div>
+            <div class="sobreprog">
+                <img src="/img/imagens/codigo.jpg" alt="Linhas de codigo HTML e CSS usadas neste site" class="sobreprog__imagem">
+                <article class="sobreprog__article">
+                    <h3 class="sobreprog__titulo" tabindex="0">Programação</h3>
+                    <p class="sobreprog__paragrafo">A paixão pela programação começou com a mistura de duas coisas. Um dos fatos foi a facilidade e curiosidade de mexer em máquinas e programas desde a infância,  já o outro foi quando eu fazia o curso de Piloto Comercial utilizava uma ferramenta muito útil aos pilotos, que são os simuladores de voo, com isso despertou em mim a curiosidade de como eram feitos os simuladores, como eram criados os aviões, os aeroportos e etc. Assim, comecei a me aprofundar na área da programação. Fazendo diversos cursos e focando na area de Front-end</p>
+                    <p>Você pode saber mais sobre essa área profissional clicando <a href="tecnologia.html" class="sobreprog__link">aqui</a>!</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+        <p class="footer__copyrigth">Copyright 2021 | Todos os Direitos Reservados</p>
+        </div>
+    </footer>
+
+    <script src="/js/carousel.js" type="module"></script>
+</body>
+</html>

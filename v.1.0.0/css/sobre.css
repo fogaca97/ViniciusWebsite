@@ -1,0 +1,49 @@
+.sobre{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 100px;
+    width: auto;
+    
+}
+
+.sobre__imagem{
+    border: solid 8px #626980;  
+    border-radius: 100%;
+    height: 200px;
+    margin: 0 0 0 0px;
+    width: 200px;
+}
+
+.sobre__article{
+    margin: 0 0px 0 0px;
+    align-items: center;
+    text-align: left;
+}
+
+.sobre__titulo{
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+
+.sobre__paragrafo{
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 1.25em;
+    line-height: 2em;
+    margin: 10px 0;
+    width: auto;
+}
+
+.sobre__paragrafo a{
+    color: #33AFD6;
+    text-decoration: none;
+}
+
+.sobre__paragrafo a:hover{
+    text-decoration: underline;
+}
+
+.sobre__lista{
+    display: block;
+}

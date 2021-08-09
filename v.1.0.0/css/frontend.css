@@ -1,0 +1,61 @@
+.frontend{
+    align-items: center;
+    margin: 50px 100px;
+}
+
+.frontend__titulo{
+    font-size: 2.5em;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.frontend__lista-container{
+    align-content: center;
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-row-gap: 50px;
+    justify-content: space-around;
+}
+
+.frontend__lista-card{
+    align-items: center;
+    background-color: #D1E0FF;
+    box-shadow: 0 0 7px #000000;
+    display: block;
+    height: 200px;
+    padding: 5px 10px;
+    text-align: center;
+    width: 150px;
+}
+
+.frontend__lista-card-icone{
+    height: 75px;
+    padding: 25px 25px;
+    width: 75px;
+}
+
+.frontend__lista-card-titulo{
+    font-size: 1.25em;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.frontend__lista-card-progress{
+    background-color: #E1E1E1;
+    border: solid 2px #FFFFFF;
+    display: flex;
+    height: 7px;
+    padding: .5px;
+}
+
+.frontend__lista-card-progress::before{
+    background-color: #33AFD6;
+    content: "";
+    width: 50%;
+}
+
+#bootstrap-icone{
+    filter: grayscale(100%) contrast(300%)
+}

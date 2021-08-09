@@ -1,0 +1,355 @@
+@media (max-width: 1200px) {
+    .container__header{
+        align-items: center;
+        font-size: 3em;
+        display: block;
+        height: auto;
+    }
+
+    .container__main{
+        display: block;
+    }
+
+    .container__nav{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .container__titulo{
+        font-size: 3em;
+    }
+
+    .container__subtitulo{
+        font-size: 2.0em;
+        width: 100%;
+        margin: 0 0;
+    }
+
+    .container__nav__link{
+        font-size: 1em;
+        padding: 15px 0;
+        border-top: solid 3px #000000;
+        display: block;
+    }
+
+    .dropdown__button{
+        display: none;
+    }
+
+    .dropdown{
+        display: block;
+        padding: 0 0;
+        height: auto;
+    }
+
+    .dropdown__content{
+        display: block;
+        position: relative;
+        background-color: #393E4F;
+        border: none;
+        text-align: center;
+        
+    }
+
+    .container__nav__drop{
+        border: none;
+        text-align: center;
+        background-color: none;    
+        color: #FFFFFF;
+        font-size: 1em;
+        padding: 15px 0;
+        width: 100%;
+        height: auto;
+        border-top: solid 3px #000000;
+    }
+
+    .seta__dropdown .dropdown__button{
+        display: none;
+    }
+
+    .sobre{
+        display: block;
+        text-align: center;
+    }
+
+    .sobre__article{
+        margin: 50px 0;
+    }
+
+    .sobre__titulo{
+        font-size: 2em;
+        text-align: center;
+        margin: 50px 0;
+    }
+
+
+    .sobre__paragrafo{
+        font-size: 1em;
+    }
+
+    .carousel{
+        padding: 50px 0;
+    }
+
+    .carousel__botao{
+        height: 5em;
+        width: 5em;
+        top: 250px;
+    }
+
+    .carousel__indicador{
+        z-index: 15;
+    }
+
+
+
+
+    .linha__img-linha, .mapa{
+        display: none;
+    }
+
+    .resumo{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .licenca, .habilitacoes, .outros{
+        padding: 30px 0;
+    }
+
+    .linha{
+        display: block;
+        position: relative;
+        height: auto;
+        padding: 0 0;
+        margin: 0 50px;
+    }
+
+    .linha__conteudo{
+        width: 100%;
+        padding: 30px 0 ;
+    }
+
+    .top{
+        padding-top: 0px;
+    }
+    
+    .ultimo{
+        padding-top: 0px;
+    }
+    
+    .fundo{
+        padding-top: 0px;
+    }
+
+    .linha__conteudo:first-child{
+        padding-left: 0px;
+    }
+
+    .linha__conteudo:last-child{
+        padding-right: 0px;
+    }
+
+    .avioes{
+        width: 100%;
+    }  
+
+    .avioes__cards{
+        display: block;
+        height: auto;
+    }
+
+    .avioes__lista{
+        margin: 50px 0
+    }
+
+    .avioes__lista-img{
+        width: 100%;
+        height: auto;
+        opacity: 100%;
+    }
+
+    .horas{
+        background-color: #E8E8E8;
+        margin: 50px 0 0 0;
+    }
+
+    .horas__container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .horas__lista{
+        margin: 50px 30px;
+        height: auto;
+    }
+
+    .horas__lista-titulo{
+        
+        background-color: #E8E8E8;
+        width: 200px;
+        height: 100px;
+        font-size: 2.5em;
+        padding: 40px 10px;
+        align-items: center;
+    }
+
+    .horas__lista-subtitulo{
+        font-size: 2em;
+    }
+
+    .frontend__lista-container{
+        display: block;
+    }
+
+    .frontend__lista-card{
+        width: 100%;
+        height: auto;
+        margin: 25px 0;
+    }
+
+    .programacao__lista-container{
+        display: block;
+    }
+
+    .programacao__lista-card{
+        width: 100%;
+        height: auto;
+        margin: 25px 0;
+    }
+
+    .datascience__lista-container{
+        display: block;
+    }
+
+    .datascience__lista-card{
+        width: 100%;
+        height: auto;
+        margin: 25px 0;
+    }
+
+    .outros__lista-container{
+        display: block;
+    }
+
+    .outros__lista-card{
+        width: 100%;
+        height: auto;
+        margin: 25px 0;
+    }
+
+    .curriculos{
+        height: auto;
+    }
+
+    .curriculos__boxes{
+       flex-direction: column;
+       align-items: center;
+       margin: 0 0;
+        
+    }
+
+    .curriculos__box{
+        width: 400px;
+        margin: 100px 0;
+        height: auto;
+        
+    }
+
+    .curriculos__descricao{
+        font-size: 2.5em;
+        
+    }
+
+    .curriculos__box__imagem{
+        width: 150px;
+        height: 150px;
+        padding: 0 110px;
+    }
+
+    .curriculos__box__imgdown{
+        width: 50px;
+        height: 50px;
+    }
+
+    .formulario{
+        display: block;
+        margin: 0px 50px 0 0;
+    }
+
+    .formulario__legenda{
+        font-size: 2.3em;
+    }
+
+    .input-container{
+        padding: 10px 0;
+    }
+
+    .input-label, .radio__desc, .redessociais__desc{
+        font-size: 2em;
+    }
+
+    .input-nome, .input-email, .input-telefone, .input-empresa, .input-mensagem{
+        font-size: 1.8em;
+        width: 100%;
+    }
+
+    .radio__desc{
+        width: auto;
+        height: auto;
+        font-size: 1em;
+        margin: 20px 0;
+    }
+
+    .radio__mark{
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .radio__alt{
+        
+        font-size: 2em;
+    }
+
+    input[type=radio] {
+        width: 10%;
+        height: 1.5em;
+        margin: 0 0;
+        padding: 0 0;
+    }
+
+    .botao{
+        width: 100%;
+        height: 100px;
+        border-radius: 10px;
+        font-size: 2em;
+    }
+
+    #mensagem {
+        font-size: 1em;
+        height: auto;
+    }
+
+    #mensagemlabel{
+        font-size: .70em;
+    }
+
+    .redessociais__container{
+        flex-wrap: wrap;
+    }
+
+    .rede__container{
+        width: 50%;
+        margin: 30px 0;
+    }
+
+    .footer{
+        height: auto;
+    }
+
+    .footer__copyrigth{
+        font-size: .75em;
+        padding: 35px 0;
+    }
+  }

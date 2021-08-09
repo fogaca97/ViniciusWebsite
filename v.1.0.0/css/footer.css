@@ -1,0 +1,12 @@
+.footer{
+    background-color: #393E4F;
+    display: block;
+    height: 50px;
+}
+
+.footer__copyrigth{
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-top: 12px;
+    text-align: center;
+}

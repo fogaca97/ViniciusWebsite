@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Vinicius Fogaça | Aviação</title>
+    <link rel="stylesheet" href="/css/cssreset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/dropdown.css">
+    <link rel="stylesheet" href="/css/main-aviacao.css">
+    <link rel="stylesheet" href="/css/linha-do-tempo.css">
+    <link rel="stylesheet" href="/css/avioes.css">
+    <link rel="stylesheet" href="/css/mapa.css">
+    <link rel="stylesheet" href="/css/pins-mapa.css">
+    <link rel="stylesheet" href="/css/horas.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/mediaquery.css">
+</head>
+<body>
+    <header>
+        <div class="container__header">
+            <div>
+                <a class="container__main" href="index.html">
+                    <h1 class="container__titulo">Vinícius</h1>
+                    <h2 class="container__subtitulo">Fogaça de Medeiros</h2>
+                </a>
+            </div>
+            <nav class="container__">
+                <ul class="container__nav">
+                    <li><a class="container__nav__link" href="index.html">Início</a></li>
+
+
+                <div class="dropdown">
+                    <button class="dropdown__button action">Sobre</button>
+                    <img class="seta__dropdown dropdown__button action" src="/img/icones/icone-seta.png">
+                    <ul class="dropdown__content">
+                        <li><a class="container__nav__drop dropdown" href="aviacao.html">Aviação</a></li>
+                        <li><a class="container__nav__drop dropdown" href="tecnologia.html">Tecnologia</a></li>
+                    </ul>
+                </div>
+
+
+
+                    <li><a class="container__nav__link" href="curriculos.html">Currículos</a></li>
+                    <li><a class="container__nav__link" href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div  class="sobre">
+                <div class="resumo">
+                    <div class="licenca">
+                        <h4 class="resumo__titulo" tabindex="0">Licenças</h4>
+                        <ul class="resumo__lista">
+                            <li class="resumo__lista__item">Piloto Privado - Nº 85639</li>
+                            <li class="resumo__lista__item">Piloto Comercial - Nº 37226</li>
+                        </ul>
+                    </div>
+                    <div  class="habilitacoes">
+                        <h4 class="resumo__titulo" tabindex="0">Habilitações</h4>
+                        <ul class="resumo__lista">
+                            <li class="resumo__lista__item">IFRA - Validade: 12/2020</li>
+                            <li class="resumo__lista__item">MLTE - Validade: 08/2021</li>
+                            <li class="resumo__lista__item">MNTE - Validade: 08/2021</li>
+                        </ul>
+                        </div>
+                    <div  class="outros">
+                        <h4 class="resumo__titulo" tabindex="0">Outros</h4>
+                        <ul class="resumo__lista">
+                            <li class="resumo__lista__item">CMA 1º classe - Validade: 06/2022</li>
+                            <li class="resumo__lista__item">ICAO - SDEA: 4</li>
+                            <li class="resumo__lista__item">Jet Training - A320</li>
+                            <li class="resumo__lista__item">Operação em Espaço Aéreo RVSM</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="resumo__botao" aria-labelledby="button">
+                    <a href="/files/extrato-anac.pdf" download="ExtratoANAC-Vinicius_Fogaça.pdf" class="botao-anac">EXTRATO ANAC</a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="linha_do_tempo">
+                <h3 class="linha__titulo titulo" tabindex="0">Linha do Tempo</h3>
+                <div class="linha">
+                    <div class="linha__conteudo fundo">
+                        <h4 class="linha__conteudo-titulo borda-fundo" id="2017">2017</h4>
+                        <ul class="linha__conteudo-lista esconde-itens">
+                            <li class="linha__conteudo-item">07 - Início na Aviação</li>
+                            <li class="linha__conteudo-item">08 - Início Teórico PP</li>
+                            <li class="linha__conteudo-item">12 - Termino Teórico PP</li>
+                        </ul>
+                    </div>
+                    <div class="linha__conteudo top traslada-itens">
+                        <h4 class="linha__conteudo-titulo borda-fundo" id="2018">2018</h4>
+                        <ul class="linha__conteudo-lista esconde-itens">
+                            <li class="linha__conteudo-item">01 - Início PP Prático</li>
+                            <li class="linha__conteudo-item">04 - Término PP Prático</li>
+                            <li class="linha__conteudo-item">05 - Início PC Teórico</li>
+                            <li class="linha__conteudo-item">08 - Término PC Teórico</li>
+                            <li class="linha__conteudo-item">11 - Início PC Prático</li>
+                        </ul>
+                    </div>
+                    <div class="linha__conteudo fundo">
+                        <h4 class="linha__conteudo-titulo borda-fundo" id="2019">2019</h4>
+                        <ul class="linha__conteudo-lista esconde-itens">
+                            <li class="linha__conteudo-item">08 - Término PC Prático</li>
+                            <li class="linha__conteudo-item">10 - Estudos para ICAO</li>
+                        </ul>
+                    </div>
+                    <div class="linha__conteudo ultimo traslada-itens">
+                        <h4 class="linha__conteudo-titulo borda-fundo" id="2020">2020</h4>
+                        <ul class="linha__conteudo-lista esconde-itens">
+                            <li class="linha__conteudo-item">02 - Prova ICAO</li>
+                        </ul>
+                    </div>
+                    <div class="linha__conteudo fundo"> 
+                        <h4 class="linha__conteudo-titulo borda-fundo" id="2021">2021</h4>
+                        <ul class="linha__conteudo-lista esconde-itens">
+                            <li class="linha__conteudo-item">01 - Jet Training A320</li>
+                            <li class="linha__conteudo-item">02 - Espaço Aéreo RVSM</li>
+                        </ul>
+                    </div>
+                </div>
+                <img src="/img/linha/linha.png" class="linha__img-linha">
+            </div>
+        </section>
+
+        <section>
+            <div class="avioes">
+                <h3 class="avioes__titulo titulo" tabindex="0">Aviões Voados</h3>
+                <div class="avioes__cards">
+                    <ul class="avioes__lista">
+                        <img src="/img/imagens/C152.jpg" alt="Cessna 152" class="avioes__lista-img img1">
+                        <h4 class="avioes__lista-titulo">C152</h4>
+                    </ul>
+                    <ul class="avioes__lista">
+                        <img src="/img/imagens/C172.jpg" alt="Cessna 172" class="avioes__lista-img img2">
+                        <h4 class="avioes__lista-titulo">C172</h4>
+                    </ul>
+                    <ul class="avioes__lista">
+                        <img src="/img/imagens/PA34.jpg" alt="Piper Seneca 1" class="avioes__lista-img img3">
+                        <h4 class="avioes__lista-titulo">PA-34</h4>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="mapa">
+                <h3 class="mapa__titulo titulo" tabindex="0">Aeródromos Visitados</h3>
+                <img src="/img/imagens/wac-carta.jpeg" alt="Carta WAC 3262 do Estado de São Paulo" class="mapa__imagem">
+                <div class="mapa__legenda">
+                    <ul class="mapa__legenda-lista">
+                        <div class="mapa__legenda-1">
+                            <img src="/img/icones/icone-alfinete-vermelho.png" alt="Alfinete vermelho" class="mapa__legenda-alfinete">
+                            <h5>Aeroporto base</h5 class="mapa__legenda-titulo">
+                        </div>
+                        <div class="mapa__legenda-2">
+                            <img src="/img/icones/icone-alfinete-verde.png" alt="Alfinete verde" class="mapa__legenda-alfinete">
+                            <h5>Aeroporto visitado</h5 class="mapa__legenda-titulo">
+                        </div>
+                    </ul>
+                </div>
+                <ul class="mapa__alfinetes">
+                    <img src="/img/icones/icone-alfinete-vermelho.png" alt="Jundiai" id="SBJD">
+                    <img src="/img/icones/icone-alfinete-vermelho.png" alt="Bragança Paulista" id="SBBP">
+                    <img src="/img/icones/icone-alfinete-verde.png" alt="Sorocaba" id="SBCO">
+                    <img src="/img/icones/icone-alfinete-verde.png" alt="Campo de Marte" id="SBMT">
+                    <img src="/img/icones/icone-alfinete-verde.png" alt="São José dos Campos" id="SBSJ">
+                    <img src="/img/icones/icone-alfinete-verde.png" alt="Ubatuba" id="SDUB">
+                    <img src="/img/icones/icone-alfinete-verde.png" alt="Atibaia" id="SDTB">
+                    <img src="/img/icones/icone-alfinete-verde.png" alt="Viracopos" id="SBKP">
+                    <img src="/img/icones/icone-alfinete-verde.png" alt="Campos do Amarais" id="SDAM">
+                    <img src="/img/icones/icone-alfinete-verde.png" alt="Americana" id="SDAI">
+                    <img src="/img/icones/icone-alfinete-verde.png" alt="Piracicaba" id="SDPW">
+                    <img src="/img/icones/icone-alfinete-verde.png" alt="Botucatu" id="SDBK">
+                    <img src="/img/icones/icone-alfinete-verde.png" alt="Avaré" id="SDRR">
+                    <img src="/img/icones/icone-alfinete-verde.png" alt="Bauru" id="SBBU">
+                    <img src="/img/icones/icone-alfinete-verde.png" alt="Araras" id="SDAA">
+                    <img src="/img/icones/icone-alfinete-verde.png" alt="Mogi Mirim" id="SDMJ">
+                    <img src="/img/icones/icone-alfinete-verde.png" alt="São João da Boa Vista" id="SDJV">
+                    <img src="/img/icones/icone-alfinete-verde.png" alt="Pouso Alegre" id="SNZA">
+                    <img src="/img/icones/icone-alfinete-verde.png" alt="Poços de Caldas" id="SBPC">
+                    <img src="/img/icones/icone-alfinete-verde.png" alt="Varginha" id="SBVG">
+                    <img src="/img/icones/icone-alfinete-verde.png" alt="São Carlos" id="SDSC">
+                    <img src="/img/icones/icone-alfinete-verde.png" alt="Araraquara" id="SBAQ">
+                    <img src="/img/icones/icone-alfinete-verde.png" alt="Ribeirão Preto" id="SBRP">
+                    <img src="/img/icones/icone-alfinete-verde.png" alt="São José do Rio Preto" id="SBSR">
+
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="horas">
+                <h3 class="horas__titulo titulo" tabindex="0">Horas de Vôo</h3>
+                <ul class="horas__container">
+                    <li class="horas__lista">
+                        <h4 class="horas__lista-titulo">MNTE</h4>
+                        <desc class="horas__lista-subtitulo">140.6h</desc>
+                    </li>
+                    <li class="horas__lista">
+                        <h4 class="horas__lista-titulo">MLTE</h4>
+                        <desc class="horas__lista-subtitulo">12.3h</desc>
+                    </li>
+                    <li class="horas__lista">
+                        <h4 class="horas__lista-titulo">Simulador</h4>
+                        <desc class="horas__lista-subtitulo">27h</desc>
+                    </li>
+                    <li class="horas__lista">
+                        <h4 class="horas__lista-titulo">PIC</h4>
+                        <desc class="horas__lista-subtitulo">93.1h</desc>
+                    </li>
+                    <li class="horas__lista">
+                        <h4 class="horas__lista-titulo">IFR Capota</h4>
+                        <desc class="horas__lista-subtitulo">20.8h</desc>
+                    </li>
+                    <li class="horas__lista">
+                        <h4 class="horas__lista-titulo">TOTAL</h4>
+                        <desc class="horas__lista-subtitulo">152.9h</desc>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+        <p class="footer__copyrigth">Copyright 2021 | Todos os Direitos Reservados</p>
+        </div>
+    </footer>
+</body>
+</html>

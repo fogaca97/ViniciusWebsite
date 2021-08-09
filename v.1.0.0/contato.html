@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Vinicius Fogaça | Contato</title>
+    <link rel="stylesheet" href="/css/cssreset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/dropdown.css">
+    <link rel="stylesheet" href="/css/contato.css">
+    <link rel="stylesheet" href="/css/redes-sociais.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/mediaquery.css">
+</head>
+<body>
+    <header>
+        <div class="container__header">
+            <div>
+                <a class="container__main" href="index.html">
+                    <h1 class="container__titulo">Vinícius</h1>
+                    <h2 class="container__subtitulo">Fogaça de Medeiros</h2>
+                </a>
+            </div>
+            <nav class="container__">
+                <ul class="container__nav">
+                    <li><a class="container__nav__link" href="index.html">Início</a></li>
+                    <div class="dropdown">
+                        <button class="dropdown__button action">Sobre</button>
+                        <img class="seta__dropdown dropdown__button action" src="/img/icones/icone-seta.png">
+                        <ul class="dropdown__content">
+                            <li><a class="container__nav__drop dropdown" href="aviacao.html">Aviação</a></li>
+                            <li><a class="container__nav__drop dropdown" href="tecnologia.html">Tecnologia</a></li>
+                        </ul>
+                    </div>
+                    <li><a class="container__nav__link" href="curriculos.html">Currículos</a></li>
+                    <li><a class="container__nav__link" href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="form">
+            <h2 class="form__titulo titulo titulo" tabindex="0">Contato</h2>
+            <legend class="formulario__legenda">Informações:</legend>
+            <form action="#" class="formulario" name="form">
+                    <div class="input-container">
+                        <label class="input-label" for="nome">Nome Completo*</label>
+                        <input size="50" name="nome" id="nome" class="input-nome destaque" type="text" placeholder="Nome Completo" data-tipo="nome" required>
+                        <span class="input-mensagem-erro esconde-erro" id="erro-nome" for="nome">Este campo deve ser preenchido</span>
+                    </div>
+                    <div class="input-container">
+                        <label class="input-label" for="email">Email*</label>
+                        <input size="50" name="email" id="email" class="input-email destaque" type="email" placeholder="Email" data-tipo="email" required>
+                        <span class="input-mensagem-erro esconde-erro" id="erro-email" for="email">Este campo deve ser preenchido</span>
+                    </div>
+                    <div class="input-container">
+                        <label class="input-label" for="telefone">Telefone*</label>
+                        <input size="50" name="telefone" id="telefone" class="input-telefone destaque" type="tel" placeholder="( XX )  X XXXX - XXXX" pattern="^\([1-9]{2}\) (?:[2-8]|9[1-9])[0-9]{3}\-[0-9]{4}$" data-tipo="telefone" maxlength="11" required>
+                        <span class="input-mensagem-erro esconde-erro" id="erro-telefone" for="telefone">Este campo deve ser preenchido</span>
+                    </div>
+                    <div class="input-container">
+                        <label class="input-label" for="empresa">Empresa</label>
+                        <input size="50" name="empresa" id="empresa" class="input-empresa destaque" type="text" placeholder="Empresa" data-tipo="empresa">
+                        <span class="input-mensagem-erro esconde-erro" id="erro-empresa" for="empresa">Este campo não está válido</span>
+                    </div>
+                    <div class="input-container">
+                        <label class="input-label" for="mensagem" id="mensagemlabel">Mensagem*</label>
+                        <textarea name="mensagem" class="input-mensagem destaque" id="mensagem" cols="43" rows="10" type="text" placeholder="Mensagem"  data-tipo="mensagem" required minlength="5"></textarea>
+                        <span class="input-mensagem-erro esconde-erro" id="erro-mensagem" for="mensagem">Este campo deve ser preenchido</span>
+                    </div>
+
+                    <div class="fim-container">
+                        <div class="radio__container">
+                            <p class="radio__desc" tabindex="0">Seu telefone possui Whatsapp?</p>
+                            <div class="radio__mark">
+                                <input type="radio" id="sim" name="valor" value="sim" checked>
+                                <label for="sim" class="radio__alt">Sim</label>
+                            </div>
+                            <div class="radio__mark">
+                                <input type="radio" id="nao" name="valor" value="nao">
+                                <label for="nao" class="radio__alt">Não</label>
+                            </div>
+                        </div>
+                        <button class="botao" onclick="return validaform()">Enviar</a>
+                    </div>
+            </form>
+        </section>
+        
+        <section class="redessociais">
+            <h2 class="redessociais__titulo titulo" tabindex="0">Redes Sociais</h2>
+            <div class="redessociais__container">
+                <div class="rede__container">
+                    <a href="https://web.whatsapp.com/send?phone=5511965764279"><img src="/img/icones/icone-whatsapp.png" alt="Whatsapp" class="redessociais__imagem"></a>
+                    <br><desc class="redessociais__desc">(11) 96576-4279</desc>
+                </div>
+                <div class="rede__container">
+                    <a href="https://www.instagram.com/fogaca_97/"><img src="/img/icones/icone-insta.png" alt="Instagram" class="redessociais__imagem"></a>
+                    <br><desc class="redessociais__desc">@ fogaca_97</desc>
+                </div>
+                <div class="rede__container">
+                    <a href="https://www.linkedin.com/in/viniciusfogaca/"><img src="/img/icones/icone-linkedin.png" alt="Linkedin" class="redessociais__imagem"></a>
+                    <br><desc class="redessociais__desc">Linkedin Aviação</desc>
+                </div>
+                <div class="rede__container">
+                    <a href="https://www.linkedin.com/in/viniciusfogacademedeiros/"><img src="/img/icones/icone-linkedin.png" alt="Linkedin" class="redessociais__imagem"></a>
+                    <br><desc class="redessociais__desc">Linkedin Programação</desc>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+        <p class="footer__copyrigth">Copyright 2021 | Todos os Direitos Reservados</p>
+        </div>
+    </footer>
+
+    <script src="/js/validaform.js"></script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Vinicius Fogaça | Tecnologia</title>
+    <link rel="stylesheet" href="/css/cssreset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/dropdown.css">
+    <link rel="stylesheet" href="/css/progresso.css">
+    <link rel="stylesheet" href="/css/frontend.css">
+    <link rel="stylesheet" href="/css/programacao.css">
+    <link rel="stylesheet" href="/css/datascience.css">
+    <link rel="stylesheet" href="/css/outros.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/mediaquery.css">
+</head>
+<body>
+    <header>
+        <div class="container__header">
+            <div>
+                <a class="container__main" href="index.html">
+                    <h1 class="container__titulo">Vinícius</h1>
+                    <h2 class="container__subtitulo">Fogaça de Medeiros</h2>
+                </a>
+            </div>
+            <nav class="container__">
+                <ul class="container__nav">
+                    <li><a class="container__nav__link" href="index.html">Início</a></li>
+
+
+                <div class="dropdown">
+                    <button class="dropdown__button action">Sobre</button>
+                    <img class="seta__dropdown dropdown__button action" src="/img/icones/icone-seta.png">
+                    <ul class="dropdown__content">
+                        <li><a class="container__nav__drop dropdown" href="aviacao.html">Aviação</a></li>
+                        <li><a class="container__nav__drop dropdown" href="tecnologia.html">Tecnologia</a></li>
+                    </ul>
+                </div>
+
+
+
+                    <li><a class="container__nav__link" href="curriculos.html">Currículos</a></li>
+                    <li><a class="container__nav__link" href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div>
+            <div class="frontend">
+                <h3 class="frontend__titulo titulo" tabindex="0">Front-end</h3>
+                <ul class="frontend__lista">
+                    <div class="frontend__lista-container">
+                        <li class="frontend__lista-card">
+                            <img src="/img/icones/icone-html.png" alt="" class="frontend__lista-card-icone">
+                            <h4 class="frontend__lista-card-titulo">HMTL5</h4>
+                            <div class="frontend__lista-card-progress" id="html"></div>
+                        </li>
+                        <li class="frontend__lista-card">
+                            <img src="/img/icones/icone-css.png" alt="" class="frontend__lista-card-icone">
+                            <h4 class="frontend__lista-card-titulo">CSS3</h4>
+                            <div class="frontend__lista-card-progress" id="css"></div>
+                        </li>
+                        <li class="frontend__lista-card">
+                            <img src="/img/icones/icone-javascript.png" alt="" class="frontend__lista-card-icone">
+                            <h4 class="frontend__lista-card-titulo">JavaScript</h4>
+                            <div class="frontend__lista-card-progress" id="javascript"></div>
+                        </li>
+                        <li class="frontend__lista-card">
+                            <img src="/img/icones/icone-bootstrap.png" alt="" class="frontend__lista-card-icone" id="bootstrap-icone">
+                            <h4 class="frontend__lista-card-titulo">Bootstrap 4</h4>
+                            <div class="frontend__lista-card-progress" id="bootstrap"></div>
+                        </li>
+                        <li class="frontend__lista-card">
+                            <img src="/img/icones/icone-sass.png" alt="" class="frontend__lista-card-icone">
+                            <h4 class="frontend__lista-card-titulo">SASS</h4>
+                            <div class="frontend__lista-card-progress" id="sass"></div>
+                        </li>
+                        <li class="frontend__lista-card">
+                            <img src="/img/icones/icone-acessibilidade.png" alt="" class="frontend__lista-card-icone">
+                            <h4 class="frontend__lista-card-titulo">Acessibilidade</h4>
+                            <div class="frontend__lista-card-progress" id="acessibilidade"></div>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="programacao">
+                <h3 class="programacao__titulo titulo" tabindex="0">Programação</h3>
+                <ul class="programacao__lista">
+                    <div class="programacao__lista-container">
+                        <li class="programacao__lista-card">
+                            <img src="/img/icones/icone-c++.png" alt="" class="programacao__lista-card-icone">
+                            <h4 class="programacao__lista-card-titulo">C++</h4>
+                            <div class="programacao__lista-card-progress" id="c"></div>
+                        </li>
+                        <li class="programacao__lista-card">
+                            <img src="/img/icones/icone-java.png" alt="" class="programacao__lista-card-icone">
+                            <h4 class="programacao__lista-card-titulo">Java</h4>
+                            <div class="programacao__lista-card-progress" id="java"></div>
+                        </li>
+                        <li class="programacao__lista-card">
+                            <img src="/img/icones/icone-python.png" alt="" class="programacao__lista-card-icone">
+                            <h4 class="programacao__lista-card-titulo">Python</h4>
+                            <div class="programacao__lista-card-progress" id="python"></div>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="datascience">
+                <h3 class="datascience__titulo titulo" tabindex="0">Data Science</h3>
+                <ul class="datascience__lista">
+                    <div class="datascience__lista-container">
+                        <li class="datascience__lista-card">
+                            <img src="/img/icones/icone-sql.png" alt="" class="datascience__lista-card-icone">
+                            <h4 class="datascience__lista-card-titulo">SQL</h4>
+                            <div class="datascience__lista-card-progress" id="sql"></div>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="outros">
+                <h3 class="outros__titulo titulo" tabindex="0">Outros</h3>
+                <ul class="outros__lista">
+                    <div class="outros__lista-container">
+                        <li class="outros__lista-card">
+                            <img src="/img/icones/icone-word.png" alt="" class="outros__lista-card-icone">
+                            <h4 class="outros__lista-card-titulo">M. Word</h4>
+                            <div class="outros__lista-card-progress" id="word"></div>
+                        </li>
+                        <li class="outros__lista-card">
+                            <img src="/img/icones/icone-powerpoint.png" alt="" class="outros__lista-card-icone">
+                            <h4 class="outros__lista-card-titulo">M. PowerPoint</h4>
+                            <div class="datascience__lista-card-progress" id="powerpoint"></div>
+                        </li>
+                        <li class="outros__lista-card">
+                            <img src="/img/icones/icone-excel.png" alt="" class="outros__lista-card-icone">
+                            <h4 class="outros__lista-card-titulo">M. Excel</h4>
+                            <div class="outros__lista-card-progress" id="excel"></div>
+                        </li>
+                        <li class="outros__lista-card">
+                            <img src="/img/icones/icone-autocad.png" alt="" class="outros__lista-card-icone">
+                            <h4 class="outros__lista-card-titulo">AutoCAD</h4>
+                            <div class="outros__lista-card-progress" id="autocad"></div>
+                        </li>
+                        <li class="outros__lista-card">
+                            <img src="/img/icones/icone-photoshop.png" alt="" class="outros__lista-card-icone">
+                            <h4 class="outros__lista-card-titulo">Photoshop</h4>
+                            <div class="outros__lista-card-progress" id="photoshop"></div>
+                        </li>
+                        <li class="outros__lista-card">
+                            <img src="/img/icones/icone-blender.png" alt="" class="outros__lista-card-icone">
+                            <h4 class="outros__lista-card-titulo">Blender</h4>
+                            <div class="outros__lista-card-progress" id="blender"></div>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+        <p class="footer__copyrigth">Copyright 2021 | Todos os Direitos Reservados</p>
+        </div>
+    </footer>
+</body>
+</html>

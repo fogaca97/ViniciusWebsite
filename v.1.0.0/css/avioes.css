@@ -1,0 +1,46 @@
+.avioes{
+    margin: 80px 0;
+}
+
+.avioes__titulo{
+    font-size: 2.5em;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.avioes__cards{
+    display: flex;
+    height: 300px;
+    justify-content: space-around;
+    padding: 50px 100px;
+}
+
+.avioes__lista:hover .avioes__lista-img{
+    opacity: 100%;
+    transition: 1s;
+}
+
+.avioes__lista:hover .avioes__lista-titulo{
+    font-size: 2.5em;
+    transition: .5s;
+}
+
+.avioes__lista{
+    border: solid 8px #626980;
+}
+
+.avioes__lista-img{
+    height: 200px;
+    opacity: 70%;
+    width: 270px;
+}
+
+.avioes__lista-titulo{
+    font-size: 2em;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.img2{
+    transform: scaleX(-1);
+}

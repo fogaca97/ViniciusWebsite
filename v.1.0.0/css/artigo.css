@@ -1,0 +1,87 @@
+.sobremim{
+    display: flex;
+    padding: 5% 0;
+    overflow-x: hidden;
+}
+
+.sobremim__imagem-aeroporto{
+    width: 50%;
+}
+
+.sobremim__imagem-aviao{
+    position: absolute;
+    height: 5%;
+    width: 10%;
+    animation: decolagem 15s infinite linear;
+}
+
+@keyframes decolagem {
+    0% {
+        transform: translate(25%, 1160%) scalex(-1);
+    }
+    20% {
+        transform: translate(200%, 1160%) rotate(-15deg) scalex(-1);
+    }
+    100% {
+        transform: translate(900%, 500%) rotate(-25deg) scalex(-1);
+    }
+}
+
+.sobremim__article, .sobreavi__article, .sobreprog__article{
+    display: block;
+    padding: 5%;
+    width: 45%;
+}
+
+.sobremim__titulo, .sobreavi__titulo, .sobreprog__titulo{
+    font-size: 2.5em;
+    padding: 5% 2%;
+    text-align: center;
+}
+
+.sobremim__paragrafo{
+    text-align: justify;
+    line-height: 2.5em;
+}
+
+.sobreavi{
+    background-color: #E8E8E8;
+    display: flex;
+    padding: 5% 0;
+}
+
+.sobreavi__paragrafo, .sobreprog__paragrafo{
+    text-align: justify;
+    line-height: 2em;
+    padding: 10% 0;
+}
+
+.sobreavi__link, .sobreprog__link{
+    text-decoration: none;
+    color: #33AFD6;
+}
+
+.sobreavi__link:hover, .sobreprog__link:hover{
+    text-decoration: underline;
+}
+
+.sobreavi__parallax{
+    
+    background-attachment: fixed;
+    background-image: url(/img/imagens/painel.jpg);
+    background-position: 1000% bottom;
+    background-repeat: no-repeat;
+    background-size: 90em;
+    opacity: 75%;
+    width: 50%;
+}
+
+.sobreprog{
+    display: flex;
+    padding: 5% 0;
+}
+
+.sobreprog__imagem{
+    width: 50%;
+    opacity: 90%;
+}

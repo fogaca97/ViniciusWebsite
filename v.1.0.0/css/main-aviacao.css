@@ -1,0 +1,42 @@
+.sobre{
+    align-items: center;
+    margin: 80px 0;
+}
+
+.resumo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.licenca, .habilitacoes, .outros{
+    display: block;
+}
+
+.resumo__titulo{
+    font-size: 2.5em;
+}
+
+.resumo__lista{
+    margin: 1em 0 ;
+}
+
+.resumo__lista__item{
+    font-size: 1em;
+    padding: 0.75em 0;
+}
+
+.resumo__botao{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.botao-anac{
+    background-color: #8191B3;
+    border: 9px solid #626980;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-size: 1.5em;
+    padding: .4em .4em;
+    text-decoration: none;
+}

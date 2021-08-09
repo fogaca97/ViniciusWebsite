@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Vinicius Fogaça | Currículos</title>
+    <link rel="stylesheet" href="/css/cssreset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/dropdown.css">
+    <link rel="stylesheet" href="/css/curriculos.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/mediaquery.css">
+</head>
+<body>
+    <header>
+        <div class="container__header">
+            <div>
+                <a class="container__main" href="index.html">
+                    <h1 class="container__titulo">Vinícius</h1>
+                    <h2 class="container__subtitulo">Fogaça de Medeiros</h2>
+                </a>
+            </div>
+            <nav class="container__">
+                <ul class="container__nav">
+                    <li><a class="container__nav__link" href="index.html">Início</a></li>
+
+
+                <div class="dropdown">
+                    <button class="dropdown__button action">Sobre</button>
+                    <img class="seta__dropdown dropdown__button action" src="/img/icones/icone-seta.png">
+                    <ul class="dropdown__content">
+                        <li><a class="container__nav__drop dropdown" href="aviacao.html">Aviação</a></li>
+                        <li><a class="container__nav__drop dropdown" href="tecnologia.html">Tecnologia</a></li>
+                    </ul>
+                </div>
+
+
+
+                    <li><a class="container__nav__link" href="curriculos.html">Currículos</a></li>
+                    <li><a class="container__nav__link" href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="curriculos">
+            <h3 class="curriculos__titulo titulo" tabindex="0">Currículos</h3>
+            <div class="curriculos__boxes">
+                <div class="curriculos__box">
+                    <a href="/files/curriculo-aviacao.pdf" download="Currículo_Aviação.pdf">
+                        <img src="/img/icones/icone-pdf.png" alt="" class="curriculos__box__imagem">
+                        <figcaption class="descricao">
+                            <h4 class="curriculos__descricao">Aviação</h4>
+                            <img src="/img/icones/icone-download.png" alt="Baixe o curriculo de Aviação aqui!" class="curriculos__box__imgdown">
+                        </figcaption>    
+                    </a>
+                </div>
+                <div class="curriculos__box">
+                    <a href="/files/curriculo-programador.pdf" download="Currículo_Programação.pdf">
+                        <img src="/img/icones/icone-pdf.png" alt="" class="curriculos__box__imagem">
+                        <figcaption class="descricao">
+                            <h4 class="curriculos__descricao">Programação</h4>
+                            <img src="/img/icones/icone-download.png" alt="Baixe o curriculo de Programação aqui!" class="curriculos__box__imgdown">
+                        </figcaption>
+                    </a>
+                </div>
+                <div class="curriculos__box">
+                    <a href="/files/curriculo-front-end.pdf" download="Currículo_Front-end.pdf">
+                        <img src="/img/icones/icone-pdf.png" alt="" class="curriculos__box__imagem">
+                        <figcaption class="descricao">
+                            <h4 class="curriculos__descricao">Front-end</h4>
+                            <img src="/img/icones/icone-download.png" alt="Baixe o curriculo de Front-end aqui!" class="curriculos__box__imgdown">
+                        </figcaption>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+        <p class="footer__copyrigth">Copyright 2021 | Todos os Direitos Reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
